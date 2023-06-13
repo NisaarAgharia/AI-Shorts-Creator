@@ -5,15 +5,11 @@ Examples : Cropping interesting part of the video  : Source Video https://www.yo
 ![thumbnail](https://github.com/NisaarAgharia/AI-Video-Cropper/assets/22457544/7dbf9b92-2a08-4948-bb49-e41350ae4a02)
 
 
-
-https://github.com/NisaarAgharia/AI-Video-Cropper/assets/22457544/d94f37b1-c251-4778-a3dd-8f09552f31c7
-
-
-
-![58791d88-c756-4dd5-b609-dc1b9d94249c_AdobeExpress (1)](https://github.com/NisaarAgharia/AI-Video-Cropper/assets/22457544/f3ea6e7d-f999-4597-87fc-0166c1be7840)
-
-![8ea10233-7b11-42dc-88c9-da65ed25a8a4_AdobeExpress](https://github.com/NisaarAgharia/AI-Video-Cropper/assets/22457544/8aeeb666-cff0-493a-8a9a-18780badd79f)
-
+<div align="center">
+  <img src="https://github.com/NisaarAgharia/AI-Video-Cropper/assets/22457544/f15b8fba-1502-49e2-b074-d14a16344c02" alt="Demo GIF 1" width="280"/>
+  <img src="https://github.com/NisaarAgharia/AI-Video-Cropper/assets/22457544/f3ea6e7d-f999-4597-87fc-0166c1be7840" alt="Demo GIF 2" width="280"/>
+  <img src="https://github.com/NisaarAgharia/AI-Video-Cropper/assets/22457544/8aeeb666-cff0-493a-8a9a-18780badd79f" alt="Demo GIF 3" width="280"/>
+</div>
 ## Requirements
 
 - Python 3.x
