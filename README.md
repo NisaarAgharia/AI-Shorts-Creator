@@ -1,17 +1,37 @@
+## Welcome to AI-Shorts-Creator! 🎥✂️
 
-## AI-Shorts-Creator
-Examples : Cropping interesting part of the video  : Source Video https://www.youtube.com/watch?v=NHaczOsMQ20
+AI-Shorts-Creator is a powerful tool designed for content creators, podcasters, and video enthusiasts to effortlessly extract captivating segments from their videos. Leveraging the advanced language model GPT-4, this innovative solution intelligently analyzes video transcripts to identify the most viral and exciting moments. By harnessing the capabilities of FFmpeg and OpenCV, AI-Shorts-Creator automatically crops videos, allowing you to focus on the key highlights and provide an enhanced viewing experience.
 
+## AI-Shorts-Creator is a powerful tool designed to:
+
+- Automatically extract captivating segments from videos.
+- Identify the most viral and exciting moments using GPT-4.
+- Crop videos to emphasize key highlights with precise face detection.
+- Streamline video editing and save time by eliminating manual searching.
+- Work seamlessly with various video formats for maximum compatibility.
+- Enhance the viewing experience for your audience with perfectly cropped highlights.
+
+
+## Examples: 
+
+Source Video : https://www.youtube.com/watch?v=NHaczOsMQ20
 ![thumbnail](https://github.com/NisaarAgharia/AI-Video-Cropper/assets/22457544/7dbf9b92-2a08-4948-bb49-e41350ae4a02)
 
+## Output Shorts:
 
 <div align="center">
-  <img src="https://github.com/NisaarAgharia/AI-Video-Cropper/assets/22457544/f15b8fba-1502-49e2-b074-d14a16344c02" alt="Demo GIF 1" width="280"/>
+  <img src="https://github.com/NisaarAgharia/AI-Video-Cropper/assets/22457544/81b0759b-7cc9-4622-9440-3ccf9400ede2" alt="Demo GIF 1" width="280"/>
   <img src="https://github.com/NisaarAgharia/AI-Video-Cropper/assets/22457544/f3ea6e7d-f999-4597-87fc-0166c1be7840" alt="Demo GIF 2" width="280"/>
   <img src="https://github.com/NisaarAgharia/AI-Video-Cropper/assets/22457544/8aeeb666-cff0-493a-8a9a-18780badd79f" alt="Demo GIF 3" width="280"/>
 </div>
-## Requirements
 
+
+https://github.com/NisaarAgharia/AI-Shorts-Creator/assets/22457544/318c8cf1-bcc3-4ed7-a979-7af17e545e6e
+
+
+Get started with AI-Shorts-Creator today and unlock the potential of your videos like never before!
+
+Requirements
 - Python 3.x
 - `pytube` library (install with `pip install pytube`)
 - `opencv-python` library (install with `pip install opencv-python`)
@@ -57,3 +77,4 @@ Please note that the GPT-4 model and transcript analysis functionality in the pr
 [MIT License](LICENSE)
 
 Feel free to modify and customize the README as per your requirements.
+Feel free to customize the descriptions according to your project's specific features and goals.
