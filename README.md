@@ -1,8 +1,3 @@
-# AI-Video-Cropper
-This repo uses GPT4 , To get best highlights from videos like podcasts and Crops those sections using ffmepg and opencv
-
-Using GPT4 we first analyse the best part of the videos and prompt gpt4 to give us timestamps in response then we take those timestamps and Using FFMPEG we Crop the Video and using OpenCV Apply Face Detection 
-
 
 Examples : Cropping interesting part of the video 
 
@@ -14,6 +9,9 @@ Examples : Cropping interesting part of the video
 
 ![TRSCLips](https://github.com/NisaarAgharia/AI-Video-Cropper/assets/22457544/38b4bdb8-0e8b-4f09-aec6-77fe7aeaa277)
 
+Certainly! Here's an example of a well-formatted README.md file that you can use for your GitHub repository:
+
+```markdown
 # AI Cropper Video in Python
 
 This Python script demonstrates an AI-powered video cropper that uses face detection to automatically crop videos. It includes functionality to download YouTube videos, segment them based on transcript analysis, detect faces, and crop the videos around the detected faces.
@@ -32,4 +30,36 @@ This Python script demonstrates an AI-powered video cropper that uses face detec
 
 ```shell
 pip install pytube opencv-python openai youtube-transcript-api
+```
+
+2. Set up your OpenAI API key by replacing `openai.api_key = ''` with your actual OpenAI API key.
+
+3. Modify the `video_id` variable in the `main()` function to specify the YouTube video you want to process.
+
+4. Run the script:
+
+```shell
+python auto_cropper.py
+```
+
+The script will download the YouTube video, analyze its transcript using OpenAI's GPT-4, segment the video into interesting sections, detect faces in each segment, and crop the videos around the detected faces.
+
+## Additional Information
+
+- The `download_video(url, filename)` function downloads a YouTube video by providing the URL and specifying the filename.
+- The `segment_video(response)` function segments the video into interesting sections based on a transcript analysis using OpenAI's GPT-4 model.
+- The `detect_faces(video_file)` function uses face detection to identify faces in a video file.
+- The `crop_video(faces, input_file, output_file)` function crops the video around the detected faces.
+- The `analyze_transcript(transcript)` function uses OpenAI's GPT-4 model to analyze a transcript and identify the most interesting sections.
+
+Please note that the GPT-4 model and transcript analysis functionality in the provided code are simulated and not fully functional. You would need a valid OpenAI API key and a working model to perform transcript analysis.
+
+## License
+
+[MIT License](LICENSE)
+```
+
+Make sure to replace `auto_cropper.py` with the actual name of your Python script if it's different. Also, include a `LICENSE` file in your repository and reference it in the README if you want to specify a license for your code.
+
+Feel free to modify and customize the README as per your requirements.
 
