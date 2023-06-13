@@ -6,8 +6,13 @@ Examples : Cropping interesting part of the video  : Source Video https://www.yo
 
 
 
+https://github.com/NisaarAgharia/AI-Video-Cropper/assets/22457544/d94f37b1-c251-4778-a3dd-8f09552f31c7
+
+
+
 ![58791d88-c756-4dd5-b609-dc1b9d94249c_AdobeExpress (1)](https://github.com/NisaarAgharia/AI-Video-Cropper/assets/22457544/f3ea6e7d-f999-4597-87fc-0166c1be7840)
 
+![8ea10233-7b11-42dc-88c9-da65ed25a8a4_AdobeExpress](https://github.com/NisaarAgharia/AI-Video-Cropper/assets/22457544/8aeeb666-cff0-493a-8a9a-18780badd79f)
 
 ## Requirements
 
