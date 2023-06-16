@@ -72,9 +72,3 @@ The script will download the YouTube video, analyze its transcript using OpenAI'
 
 Please note that the GPT-4 model and transcript analysis functionality in the provided code are simulated and not fully functional. You would need a valid OpenAI API key and a working GPT-4 model to perform transcript analysis.
 
-## License
-
-[MIT License](LICENSE)
-
-Feel free to modify and customize the README as per your requirements.
-Feel free to customize the descriptions according to your project's specific features and goals.
