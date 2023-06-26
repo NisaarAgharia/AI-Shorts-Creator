@@ -1,4 +1,4 @@
-## Welcome to AI-Shorts-Creator! 🎥✂️
+## Welcome to AI-Shorts-Creator! 🎥✂️ (WIP , You Might face some Bugs)
 
 AI-Shorts-Creator is a powerful tool designed for content creators, podcasters, and video enthusiasts to effortlessly extract captivating segments from their videos. Leveraging the advanced language model GPT-4, this innovative solution intelligently analyzes video transcripts to identify the most viral and exciting moments. By harnessing the capabilities of FFmpeg and OpenCV, AI-Shorts-Creator automatically crops videos, allowing you to focus on the key highlights and provide an enhanced viewing experience.
 
