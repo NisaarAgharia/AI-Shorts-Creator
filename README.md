@@ -44,7 +44,7 @@ Requirements
 1. Install the required libraries by running the following command:
 
 ```shell
-pip install pytube opencv-python openai youtube-transcript-api
+pip install -r requirements.txt
 ```
 
 2. Install FFmpeg by following the installation instructions for your operating system. Make sure the `ffmpeg` command is accessible from the command line.
