@@ -330,7 +330,7 @@ def analyze_transcript(transcript):
         {"role": "user", "content": prompt}
     ]
     response = openai.ChatCompletion.create(
-        model="gpt-4",
+        model="gpt-3.5-turbo-16k",
         messages=messages,
         max_tokens=512,
         n=1,
