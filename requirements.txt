@@ -1,4 +1,4 @@
 pytube
 opencv-python
-openai
+openai==0.28
 youtube-transcript-api
