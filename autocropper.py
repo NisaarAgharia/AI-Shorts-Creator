@@ -324,7 +324,7 @@ response_obj='''[
   },
 ]'''
 def analyze_transcript(transcript):
-    prompt = f"This is a transcript of a video. Please identify the 3 most viral sections from the whole, make sure they are more than 30 seconds in duration,Make Sure you provide extremely accurate timestamps respond only in this format {response_obj}  \n Here is the Transcription:\n{transcript}"
+    prompt = f"This is a transcript of a video. Please identify the most viral sections from the whole, make sure they are shorter than 120 seconds in duration,Make Sure you provide extremely accurate timestamps respond only in this format {response_obj}  \n Here is the Transcription:\n{transcript}"
     messages = [
         {"role": "system", "content": "You are a ViralGPT helpful assistant. You are master at reading youtube transcripts and identifying the most Interesting and Viral Content"},
         {"role": "user", "content": prompt}
