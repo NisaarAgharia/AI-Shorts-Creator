@@ -302,7 +302,8 @@ def get_transcript(video_id):
     #     text = entry['text']
     #     formatted_transcript += f"{start_time} --> {end_time} : {text}\n"
 
-    return transcript
+    # return transcript
+    return transcript[0: 500]
 
 
 
