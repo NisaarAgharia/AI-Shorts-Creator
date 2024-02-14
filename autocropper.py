@@ -9,10 +9,10 @@ Original file is located at
 Cell 1: Installing necessary libraries
 """
 
-!pip install pytube
-!pip install opencv-python
-!pip install openai
-!pip install youtube-transcript-api
+# !pip install pytube
+# !pip install opencv-python
+# !pip install openai
+# !pip install youtube-transcript-api
 
 """Cell 2: Importing libraries and setting OpenAI API key"""
 
