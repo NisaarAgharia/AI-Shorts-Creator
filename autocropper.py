@@ -295,12 +295,12 @@ def get_transcript(video_id):
     transcript = YouTubeTranscriptApi.get_transcript(video_id)
 
     # Format the transcript for feeding into GPT-4
-    formatted_transcript = ''
-    for entry in transcript:
-        start_time = "{:.2f}".format(entry['start'])
-        end_time = "{:.2f}".format(entry['start'] + entry['duration'])
-        text = entry['text']
-        formatted_transcript += f"{start_time} --> {end_time} : {text}\n"
+    # formatted_transcript = ''
+    # for entry in transcript:
+    #     start_time = "{:.2f}".format(entry['start'])
+    #     end_time = "{:.2f}".format(entry['start'] + entry['duration'])
+    #     text = entry['text']
+    #     formatted_transcript += f"{start_time} --> {end_time} : {text}\n"
 
     return transcript
 
