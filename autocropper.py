@@ -292,7 +292,8 @@ def get_face_coordinates(frame):
 
 def get_transcript(video_id):
     # Get the transcript for the given YouTube video ID
-    transcript = YouTubeTranscriptApi.get_transcript(video_id)
+    # transcript = YouTubeTranscriptApi.get_transcript(video_id, languages=('ko',))
+    transcript = YouTubeTranscriptApi.get_transcript(video_id, languages=('en',))
 
     # Format the transcript for feeding into GPT-4
     # formatted_transcript = ''
